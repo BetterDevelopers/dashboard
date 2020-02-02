@@ -1,6 +1,6 @@
 ## Getting Setup
 
-Ability to spin up a table inside of a postgres db. Table is for users and has three columns
+Ability to spin up a table inside of a postgres db. Table is for users and has three columns.
 
 - ID: int
 - username: text

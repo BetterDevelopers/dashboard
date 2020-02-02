@@ -1,6 +1,5 @@
 #!/bin/bash
 
-
 # Grab latest version of Docker
 docker pull postgres
 

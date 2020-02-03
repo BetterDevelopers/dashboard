@@ -1,3 +1,3 @@
-db="dashboard_user_db"
-user="dashboard_admin_user"
-password="dashboard_password"
+DASHBOARD_ENDPOINT="dashboard_database"
+DASHBOARD_DB_USER="admin_user"
+DASHBOARD_DB_PASSWORD="user_password"

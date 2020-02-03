@@ -10,7 +10,7 @@ This can be done by running the `createTable.sql` file
 
 A better way to do this however would be a bash script, which connects to a db and then runs the script.
 
-### Ask user for creds
+### BASH
 
 Navigate to postgres directory:
 
@@ -18,28 +18,10 @@ Navigate to postgres directory:
 
 Enable the script permissions:
 
-`chmod 700 askCreds.sh`
+`chmod 700 postgresSetup.sh`
 
 Run the Script
 
-`askCreds.sh`
+`./postgresSetup.sh`
 
-It will prompt you for your postgres username, database name and password. Once you provide these then your table will be created in your desired db.
-
-### Env Creds
-
-Edit the config.sh with your username, database name and password.
-
-Navigate to postgres directory:
-
-`cd postgres`
-
-Enable the script permissions:
-
-`chmod 700 envCreds.sh`
-
-Run the Script
-
-`envCreds.sh`
-
-Table will be created in the database you set in the config.sh file.
+It will create table in database, cresentials are housed inside of `config.sh`. If any variables are unset then it will provide a simple `variables are missing` error and close out.

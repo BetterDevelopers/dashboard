@@ -1,15 +1,15 @@
 variable "region" {
-    default = "us-east-1"
+  default = "us-east-1"
 }
 
 variable "username" {
-    default = "admin"
+  default = "admin"
 }
 
 variable "pass" {
-    default = "password"
+  default = "password"
 }
 
 variable "dbname" {
-    default = "userdb"
+  default = "userdb"
 }

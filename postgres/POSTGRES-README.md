@@ -24,4 +24,4 @@ Run the Script
 
 `./postgresSetup.sh`
 
-It will create table in database, cresentials are housed inside of `config.sh`. If any variables are unset then it will provide a simple `variables are missing` error and close out.
+It will create table in database using variables `DATABASE_ENDPOINT`, `DATABASE_USER` and `DATABASE_PASSWORD`. If any variables are unset then it will provide a simple `variables are missing` error and close out.
